@@ -1,0 +1,57 @@
+// Main Navigation
+
+
+.main-nav {
+    display: grid;
+    grid-template-columns: 2fr 4fr 2fr;
+    text-align: center;
+    align-items: center;
+    box-shadow: 0 1px 10px ;
+    background-color: $primary-color;
+    position:fixed;
+    top: 0;
+    width: 100%;
+    z-index: 999;
+    
+ 
+    &__logo {
+        width: 170px;
+    }
+
+    &__items {
+        display: flex;
+        justify-self: center;
+
+        li {
+            padding: 1.5rem;
+
+        a {
+            text-decoration: none;
+            font-size: 1.6rem;
+            color: $white-color;
+            border-bottom: 2px transparent solid;
+            transition: border-color .5s;
+            &:hover {
+                border-color: $medium-color;
+            }
+        }
+        }
+    }
+
+// Social Media
+
+    &__social { 
+        font-size: 3rem;
+
+        a {
+            padding:  0 0.7rem;
+            border-bottom: 2px transparent solid;
+            transition: border-color .5s;
+            text-align: center;
+
+            &:hover {
+                border-color: $medium-color;
+            }
+        }
+    }
+}

@@ -1,0 +1,35 @@
+
+* {
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    max-width: 100%;
+    font-size: 10px;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Outfit', sans-serif; 
+    background-color: $primary-color;
+    line-height: 1.5;
+}
+
+.content {
+    width: 80%;
+}
+
+a {
+    text-decoration: none;
+    color: $white-color;
+}
+
+ul {
+    list-style: none;
+}
+
+img { 
+    width: 100%;
+}

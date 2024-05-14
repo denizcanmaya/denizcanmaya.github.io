@@ -1,0 +1,144 @@
+@media (max-width: 1024px) {
+    .main-nav {
+      grid-template-columns: 1fr;
+    }
+    .main-nav__social {
+      display: none;
+    }
+    .home h1 {
+      font-size: 2rem;
+    }
+    .content { 
+      width: 90%;
+    }
+    .items {
+      grid-template-columns: repeat(2, 1fr);
+    }
+    
+    .contact-items {
+      grid-template-columns: 1fr;
+    }
+
+    .skills {
+      grid-template-columns: repeat(2, 1fr);
+    }
+    .skills1 {
+      grid-template-columns: repeat(2, 1fr);
+    }
+    .profiles {
+      grid-template-columns: repeat(4, 1fr);
+    }
+
+  }
+  
+  @media (max-width: 576px) {
+
+    .introduction p {
+      width: 100%;
+    }
+
+    .workprocess p {
+      width: 90%;
+    }
+
+    #main-content p {
+      width: 85%;
+      font-size: 1.2rem;
+    }
+    .items {
+      grid-template-columns: 1fr;
+    }
+    // Content
+    #content .home .box1 .image {
+      width: 14rem;
+      height: 14rem;
+    }
+
+    #content .home .box1 h1 {
+      font-size: 3rem;
+    }
+
+    .contact-items .contact-form {
+      width: 100%;
+    }
+    .contact-image {
+      display: none;
+    }
+    .skills {
+      grid-template-columns: 1fr;
+    }
+    .skills1 {
+      grid-template-columns: 1fr;
+    }
+    .profiles {
+      grid-template-columns: 1fr;
+    }
+ 
+  }
+  
+
+  @media (max-width: 1024px) {
+    #contact .contact-items {
+        margin-top: 3rem;
+        grid-template-columns: 1fr;
+        
+        .contact-form {
+            .form-label {
+                width: 100%; 
+                padding: 1.5rem 1rem;
+                margin: 0 auto 1rem auto;  
+            }
+            
+            .contact-btn {
+                width: 100%;
+                padding: 1rem; 
+            }
+        }
+
+        .contact-image {
+            display: none; 
+        }
+        .message {
+            height: 10rem !important;
+        }
+    }
+    #contact .contact .section-title {
+        font-size: 3rem;
+    }
+}
+
+@media (max-width: 576px) {
+    #contact .contact-items {
+        margin-top: 3rem;
+        grid-template-columns: 1fr;
+        
+        .contact-form {
+          width: 100%;
+            .form-label {
+                width: 100%; 
+                margin: 0 auto 1rem auto; 
+            }
+            
+            .contact-btn {
+                width: 86%;
+                padding: 1rem; 
+            }
+        }
+
+        .contact-image {
+            display: none; 
+        }
+        .message {
+            height: 10rem !important;
+        }
+    }
+    #contact .contact .section-title {
+        font-size: 3rem;
+    }
+    .contact p {
+      width: 100%;
+    }
+    #footer .grid p {
+      font-size: 1rem;
+    }
+}

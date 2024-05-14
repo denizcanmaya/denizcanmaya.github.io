@@ -1,0 +1,59 @@
+// Divider
+    
+.profiles {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    background-color: $white-color;
+    text-align: center;
+    gap: 2rem;
+
+    li {
+        &.title {
+            font-size: 1.5rem;
+        }
+
+        &.number {
+            font-size: 1.5rem;
+            font-weight: bold;
+            color: $primary-color;
+        }
+    }
+
+    div {
+            padding: 2rem;
+
+    }
+}
+
+// Divider II
+ 
+.profiles div ul .title {
+    color: $medium-color;
+    font-weight: 500;
+}
+
+
+// Divider III
+    
+.divider3 {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr;
+    background-color: $white-color;
+    text-align: center;
+    gap: 2rem;
+    margin-bottom: 4rem;
+
+   h2 {
+    font-size: 2.3rem;
+    word-spacing: 2px;
+    color: $primary-color;
+    border-bottom: 2px solid $medium-color;
+   }
+
+    div {
+            padding: 2rem;
+
+    }
+}
