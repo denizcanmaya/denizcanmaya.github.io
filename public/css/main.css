@@ -247,9 +247,13 @@ img {
   .items .item {
     border-radius: 2rem;
     box-shadow: 6px 6px 14px -4px rgba(0, 0, 0, 0.75);
-    background-color: #2e3647; }
+    background-color: #2e3647;
+    transition: .3s all; }
     .items .item img {
       border-radius: 2rem; }
+  .items .item:hover {
+    box-shadow: 1px 1px 6px 2px #FC6736;
+    transition: .3s all; }
 
 .referances {
   border: 2px solid transparent;
@@ -267,11 +271,6 @@ img {
       padding: 2rem;
       color: #fff;
       font-size: 1.3rem; }
-      .referances .referance div p img {
-        border: 2px solid #fff;
-        height: 8rem;
-        max-width: 8rem;
-        border-radius: 50%; }
 
 #contact {
   width: 100%; }
